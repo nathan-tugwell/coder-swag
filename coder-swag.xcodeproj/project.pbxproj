@@ -13,6 +13,8 @@
 		5DE4CD382153DF36004F2182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DE4CD372153DF36004F2182 /* Assets.xcassets */; };
 		5DE4CD3B2153DF36004F2182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DE4CD392153DF36004F2182 /* LaunchScreen.storyboard */; };
 		5DE4CD462154D4CB004F2182 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE4CD452154D4CB004F2182 /* CategoryTableViewCell.swift */; };
+		5DE4CD482154DBE0004F2182 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE4CD472154DBE0004F2182 /* Category.swift */; };
+		5DE4CD4B2154DEFD004F2182 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE4CD4A2154DEFD004F2182 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5DE4CD3A2153DF36004F2182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DE4CD3C2153DF36004F2182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DE4CD452154D4CB004F2182 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		5DE4CD472154DBE0004F2182 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		5DE4CD4A2154DEFD004F2182 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		5DE4CD2F2153DF35004F2182 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				5DE4CD492154DEED004F2182 /* Services */,
 				5DE4CD442154D292004F2182 /* View */,
 				5DE4CD432154D285004F2182 /* Model */,
 				5DE4CD422154D27E004F2182 /* Controller */,
@@ -79,6 +84,7 @@
 		5DE4CD432154D285004F2182 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5DE4CD472154DBE0004F2182 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				5DE4CD452154D4CB004F2182 /* CategoryTableViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		5DE4CD492154DEED004F2182 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5DE4CD4A2154DEFD004F2182 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				5DE4CD332153DF35004F2182 /* CategoriesViewController.swift in Sources */,
 				5DE4CD312153DF35004F2182 /* AppDelegate.swift in Sources */,
 				5DE4CD462154D4CB004F2182 /* CategoryTableViewCell.swift in Sources */,
+				5DE4CD482154DBE0004F2182 /* Category.swift in Sources */,
+				5DE4CD4B2154DEFD004F2182 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
