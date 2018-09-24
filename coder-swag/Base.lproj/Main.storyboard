@@ -116,10 +116,10 @@
             </objects>
             <point key="canvasLocation" x="1097" y="134"/>
         </scene>
-        <!--View Controller-->
+        <!--Products View Controller-->
         <scene sceneID="zl0-sY-P3g">
             <objects>
-                <viewController id="SwK-rT-9h5" sceneMemberID="viewController">
+                <viewController id="SwK-rT-9h5" customClass="ProductsViewController" customModule="coder_swag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="src-ZV-piu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -144,7 +144,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="kdy-3B-MJd" customClass="ProductCollectionViewCell" customModule="coder_swag" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCell" id="kdy-3B-MJd" customClass="ProductCollectionViewCell" customModule="coder_swag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="178" height="269"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -208,6 +208,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Jtj-bu-EEQ"/>
                     </view>
+                    <connections>
+                        <outlet property="productsCollectionView" destination="aaL-g1-DD2" id="c7z-rG-DdF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Du5-wa-gBe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
